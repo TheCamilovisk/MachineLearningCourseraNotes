@@ -1,0 +1,9 @@
+- Field of study that gives computers the ability to learn without being explicitly programmed
+- More data -> better performance
+- Types of machine learning
+	- Supervised learning
+		- Used most in real-world applications
+		- rapid advancements
+	- Unsupervised learning
+	- Recommender systems
+	- Reinforcement learning
