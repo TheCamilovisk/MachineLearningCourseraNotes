@@ -18,3 +18,23 @@ $$
 ## Classification
 - Predict **categories**
 - **Small number** of possible outputs
+
+## Cost Function
+### Model
+$$
+f_{w, b}(x) = wx + b
+$$
+$w,b$ : parameters / coefficients / weights 
+
+Find $w, b$: $\hat{y}^{(i)}$ is close to $y^(i)$ for all $(x^{(i)}, y^{(i)})$.
+
+**Squared error cost function**
+$$
+J(w, b) = \frac{1}{2m} \sum^m_{i=1} (f_{w, b}(x^{(i)}) - y^{(i)})^2
+$$
+$m$: number of training samples
+
+### Goal
+$$
+\underset{w, b}{minimize} = J(w, b)
+$$
